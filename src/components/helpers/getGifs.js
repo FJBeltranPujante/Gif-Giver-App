@@ -7,7 +7,7 @@
     const gifs = data.map( img => ({
         id: img.id,
         title: img.title,
-        url: img.images.original.url
+        url: img.images.downsized_medium.url
     }));
     
     return gifs;
