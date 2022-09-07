@@ -21,7 +21,7 @@ export const AddCategory = ({ onNewCategory }) => {
         <form onSubmit={ onSubmit }>
             <input 
                 type="text"
-                placeholder="Search here..."
+                placeholder="Type your search here..."
                 value={ inputValue }
                 onChange={ onInputChange }
             />
