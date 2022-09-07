@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=McLaren&display=swap");
+
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #ffe291;
+}
+
+body {
+  padding: 30px 60px;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+h1 {
+  color: #ffffff;
+  text-shadow: 4px 3px #a98215;
+  font-size: 3.2rem;
+  margin-bottom: 1.5em;
+  text-align: center;
+  font-family: "McLaren", cursive;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 2.6rem;
+  margin-bottom: 1em;
+}
+
+.card__grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  height: 0%;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.card p {
+  background-color: white;
+  flex: 1;
+  font-size: 1.4rem;
+}
+
+.card img {
+  width: 100%;
+}
